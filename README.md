@@ -3,14 +3,13 @@ Twongseng
 
 Twongseng is a [TUIO2](http://tuio.org) multitouch tracker for Mac OS X touchpad devices. 
 This application allows to use the internal trackpad (or alternatively an external magic trackpad or magic mouse) 
-to send /tuio2/ptr messages to your TUIO enabled multitouch application. The latest version also enables alternative TUIO2/TCP and 
-TUIO2/WEB transport methods in addition to the default TUIO2/UDP 
-transport.
+to send /tuio2/ptr messages to your TUIO enabled multitouch application. It also allows alternative TUIO2/TCP and 
+TUIO2/WEB transport methods in addition to the default TUIO2/UDP transport.
 
 Usage
 -----
 
-1. Download [the application package](https://github.com/fajran/twongseng/releases/download/0.6/Twongseng-0.6.zip)  
+1. Download [the application package](https://github.com/mkalten/twongseng/releases/download/0.1/Twongseng-0.1.zip)  
    (Universal i386/x86_64 binary, minimum MacOS X version 10.6)
 2. Open it
 3. Run Twongseng
