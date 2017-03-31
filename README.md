@@ -49,7 +49,7 @@ Compilation
 
 ### Acknowledgements
 
-This applicaton is based on the original [Tongseng](https://github.com/fajran/tongseng) application by Fajran Iman Rusadi.
+This application is based on the original [Tongseng](https://github.com/fajran/tongseng) by Fajran Iman Rusadi.
 
 
 
