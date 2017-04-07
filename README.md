@@ -9,7 +9,7 @@ TUIO2/WEB transport methods in addition to the default TUIO2/UDP transport.
 Usage
 -----
 
-1. Download [the application package](https://github.com/mkalten/twongseng/releases/download/0.1/Twongseng-0.1.zip)  
+1. Download [the application package](https://github.com/mkalten/twongseng/releases/download/0.2/Twongseng-0.2.zip)  
    (Universal i386/x86_64 binary, minimum MacOS X version 10.6)
 2. Open it
 3. Run Twongseng
