@@ -12,8 +12,10 @@
 }
 
 - (void)awakeFromNib
-{
-	
+{	
+	[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"NSDisabledDictationMenuItem"];
+	[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"NSDisabledCharacterPaletteMenuItem"];
+
 	CFArrayRef devList = MTDeviceCreateList();
 	CFIndex dev_count = (CFIndex)CFArrayGetCount(devList);
 	

@@ -53,7 +53,35 @@
                         </items>
                     </menu>
                 </menuItem>
+                <menuItem title="Edit" id="dDH-0z-wyp">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Edit" id="cmq-gb-ZIu">
+                        <items>
+                            <menuItem title="Cut" keyEquivalent="x" id="Uzs-Gb-qmt">
+                                <connections>
+                                    <action selector="cut:" target="-1" id="FpX-5e-Ped"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Copy" keyEquivalent="c" id="jrw-Lm-8aM">
+                                <connections>
+                                    <action selector="copy:" target="-1" id="It2-jf-4aS"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Paste" keyEquivalent="v" id="iAT-XR-ejY">
+                                <connections>
+                                    <action selector="paste:" target="-1" id="tBT-J9-0Pk"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Select All" keyEquivalent="a" id="3RU-ka-2IN">
+                                <connections>
+                                    <action selector="selectAll:" target="-1" id="Pkw-2h-ivb"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
             </items>
+            <point key="canvasLocation" x="354" y="156"/>
         </menu>
         <window title="Twongseng" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371" userLabel="Window (Window)">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
@@ -83,10 +111,13 @@
                                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="454">
                                     <rect key="frame" x="92" y="89" width="119" height="22"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="localhost" drawsBackground="YES" id="455">
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="localhost" drawsBackground="YES" usesSingleLineMode="YES" id="455">
                                         <font key="font" metaFont="system"/>
                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <allowedInputSourceLocales>
+                                            <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                        </allowedInputSourceLocales>
                                     </textFieldCell>
                                 </textField>
                                 <popUpButton verticalHuggingPriority="750" misplaced="YES" id="zTg-yY-5aJ" userLabel="Protocol">
@@ -110,10 +141,13 @@
                                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="456">
                                     <rect key="frame" x="92" y="57" width="119" height="22"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="3333" drawsBackground="YES" id="457">
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="3333" drawsBackground="YES" usesSingleLineMode="YES" id="457">
                                         <font key="font" metaFont="system"/>
                                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <allowedInputSourceLocales>
+                                            <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                        </allowedInputSourceLocales>
                                     </textFieldCell>
                                 </textField>
                                 <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="ChW-WW-Hwr" userLabel="DevLabel">
